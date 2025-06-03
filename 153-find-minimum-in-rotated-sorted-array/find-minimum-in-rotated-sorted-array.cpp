@@ -14,7 +14,8 @@ public:
                 left = mid + 1;
             }
             else{
-                left++;
+                shortest = min(nums[mid], shortest);
+                right = mid - 1;
             }
 
         }
