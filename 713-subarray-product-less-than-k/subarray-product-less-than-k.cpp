@@ -1,7 +1,6 @@
 class Solution {
 public:
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
-        unordered_map<int, int> mp;
         int left = 0;
         int prod = 1;
         int ans = 0;
